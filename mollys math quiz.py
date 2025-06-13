@@ -111,10 +111,12 @@ want_history = yes_no("Do you want to see game history? ")
 if want_history == "yes":
     print("Game History")
 
+
+
     for item in game_history:
         print(item)
 
-
+    print(f"Thank you for participating in my math quiz 😘😘")
 
 
 
